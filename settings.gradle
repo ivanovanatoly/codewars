@@ -1,4 +1,5 @@
 rootProject.name = 'codewars'
 
 include 'are-the-numbers-in-order'
+include 'reverse-words'
 
