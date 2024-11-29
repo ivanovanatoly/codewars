@@ -3,4 +3,5 @@ rootProject.name = 'codewars'
 include 'are-the-numbers-in-order'
 include 'reverse-or-rotate'
 include 'reverse-words'
+include 'sum-of-cubes'
 
