@@ -10,9 +10,8 @@ public class Calc {
             return 0;
         }
 
-        var splitted = expr.split("\\s");
         var stack = new Stack<Double>();
-        Arrays.stream(splitted).forEach(s -> {
+        Arrays.stream(expr.split("\\s")).forEach(s -> {
             switch (s) {
                 case "+" -> stack.push(stack.pop() + stack.pop());
                 case "-" -> stack.push(-1 * stack.pop() + stack.pop());
@@ -22,7 +21,7 @@ public class Calc {
             }
         });
 
-        return stack.size() > 0 ? stack.pop() : 0;
+        return stack.pop();
     }
 
 }
