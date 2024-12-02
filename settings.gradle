@@ -3,6 +3,7 @@ rootProject.name = 'codewars'
 include 'are-the-numbers-in-order'
 include 'meeting'
 include 'reverse-or-rotate'
+include 'reverse-polish-notation-calculator'
 include 'reverse-words'
 include 'sum-of-cubes'
 
